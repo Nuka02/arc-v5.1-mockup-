@@ -21,19 +21,21 @@
         mapbox:mapbox_cameraTargetLat="43.8938256"
         mapbox:mapbox_cameraTargetLng="18.3129519"
         mapbox:mapbox_cameraTilt="0"
-        mapbox:mapbox_cameraZoom="12" />
+        mapbox:mapbox_cameraZoom="12"
+        />
 
     <Button
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:background="@drawable/ic_volan"
-        android:text="+"
+        android:id="@+id/callRide"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/volan"
         app:layout_constraintBottom_toTopOf="@+id/mapView"
         app:layout_constraintEnd_toStartOf="@+id/mapView"
         app:layout_constraintHorizontal_bias="0.213"
         app:layout_constraintStart_toEndOf="@+id/mapView"
         app:layout_constraintTop_toBottomOf="@+id/mapView"
         app:layout_constraintVertical_bias="0.151" />
+
 
 
 </android.support.constraint.ConstraintLayout>
