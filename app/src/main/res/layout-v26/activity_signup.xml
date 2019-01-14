@@ -14,11 +14,10 @@
         android:layout_height="94dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="58dp"
-        android:contentDescription="TODO"
-        android:src="@drawable/ikonica"
-        />
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="83dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ikonica" />
 
     <EditText
         android:id="@+id/etName"
@@ -48,14 +47,15 @@
 
     <EditText
         android:id="@+id/etEmail"
-        android:layout_width="wrap_content"
+        android:layout_width="229dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/etLastname"
+        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
         android:layout_marginEnd="84dp"
         android:layout_marginBottom="249dp"
-        android:ems="10"
+        android:ems="14"
         android:hint="@string/e_mail"
         android:importantForAutofill="no"
         android:inputType="textEmailAddress" />
@@ -65,6 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/etEmail"
+        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
         android:layout_marginBottom="197dp"
@@ -78,6 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/etPassword"
+        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
         android:layout_marginBottom="145dp"
@@ -91,6 +93,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/etConfirmPassword"
+        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="83dp"
         android:layout_marginBottom="93dp"
@@ -105,11 +108,12 @@
         android:layout_width="24dp"
         android:layout_height="17dp"
         android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="25dp"
         android:layout_marginTop="23dp"
         android:background="@drawable/arrow_noborder"
-        android:contentDescription="TODO" />
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/button4"
@@ -131,7 +135,7 @@
         android:layout_marginBottom="26dp"
         android:adjustViewBounds="false"
         android:background="@drawable/arrow_button"
-        android:contentDescription="TODO" />
+        android:contentDescription="@string/todo" />
 
 
 </RelativeLayout>

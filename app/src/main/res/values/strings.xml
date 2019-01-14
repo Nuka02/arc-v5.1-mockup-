@@ -10,6 +10,6 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="e_mail">E-mail</string>
     <string name="lastname">Lastname</string>
-    <string name="todo">TODO</string>
     <string name="mapStyle">https://api.mapbox.com/styles/v1/ajdinahmetovic/cjqw83ttvnqkf2rmw423f4v6r.html?fresh=true&amp;title=true&amp;access_token=pk.eyJ1IjoiYWpkaW5haG1ldG92aWMiLCJhIjoiY2praDZkZDQ3MG92MTNwbXBrYjRxNHllZiJ9.y9-QcaI5nQduRj_Mkv4cXg#10.0/42.362400/-71.020000/0</string>
+    <string name="todo">TODO</string>
 </resources>
