@@ -18,6 +18,7 @@
         android:layout_marginTop="58dp"
         android:contentDescription="TODO" />
 
+    ;
     <EditText
         android:id="@+id/etName"
         android:layout_width="wrap_content"
