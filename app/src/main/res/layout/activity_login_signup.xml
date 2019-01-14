@@ -16,7 +16,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="153dp"
         android:background="@drawable/rounded_button"
-        android:text="Sign Up"
+        android:text="@string/sign_up"
         android:textColor="@android:color/white"
         tools:layout_editor_absoluteX="67dp"
         tools:layout_editor_absoluteY="381dp" />
@@ -30,7 +30,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="-136dp"
         android:background="@drawable/rounded_button_fill"
-        android:text="Login"
+        android:text="@string/login"
         android:textColor="#2fadde"
         tools:layout_editor_absoluteX="67dp"
         tools:layout_editor_absoluteY="435dp" />
