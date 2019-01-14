@@ -8,15 +8,15 @@
     android:layout_height="fill_parent">
 
     <ImageView
-        android:src="@drawable/ikonica"
         android:id="@+id/imageView2"
         android:layout_width="247dp"
         android:layout_height="94dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="58dp"
-        android:contentDescription="TODO" />
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="27dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ikonica" />
 
     <EditText
         android:id="@+id/etName"
@@ -107,7 +107,7 @@
         android:layout_marginStart="25dp"
         android:layout_marginTop="23dp"
         android:background="@drawable/arrow_noborder"
-        android:contentDescription="TODO" />
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/button4"
@@ -129,7 +129,7 @@
         android:layout_marginBottom="26dp"
         android:adjustViewBounds="false"
         android:background="@drawable/arrow_button"
-        android:contentDescription="TODO" />
+        android:contentDescription="@string/todo" />
 
 
 </RelativeLayout>
