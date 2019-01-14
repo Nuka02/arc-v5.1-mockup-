@@ -18,10 +18,10 @@
         mapbox:layout_constraintEnd_toEndOf="parent"
         mapbox:layout_constraintStart_toStartOf="parent"
         mapbox:layout_constraintTop_toTopOf="parent"
-        mapbox:mapbox_cameraTargetLat="43.8938256"
-        mapbox:mapbox_cameraTargetLng="18.3129519"
+        mapbox:mapbox_cameraTargetLat="43.8186281"
+        mapbox:mapbox_cameraTargetLng="18.31207"
         mapbox:mapbox_cameraTilt="0"
-        mapbox:mapbox_cameraZoom="12"
+        mapbox:mapbox_cameraZoom="15"
         />
 
     <Button
