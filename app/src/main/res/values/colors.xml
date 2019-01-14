@@ -3,4 +3,5 @@
     <color name="colorPrimary">#ffffff</color>
     <color name="colorPrimaryDark">#979797</color>
     <color name="colorAccent">#ffffff</color>
+    <color name="mapboxGreen">#979797</color>
 </resources>
