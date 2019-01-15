@@ -13,8 +13,6 @@ public class SignupActivity extends AppCompatActivity {
     private ImageButton arrowButton;
     private Button arrowNoBorder;
 
-
-     // otvori ovdje ono sto si mi poslao
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
