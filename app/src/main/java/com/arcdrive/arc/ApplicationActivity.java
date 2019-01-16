@@ -1,6 +1,7 @@
 package com.arcdrive.arc;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +11,7 @@ import android.view.Window;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.mapbox.android.core.permissions.PermissionsListener;
@@ -30,6 +32,7 @@ public class ApplicationActivity extends AppCompatActivity  implements OnMapRead
 
     private Button callRide;
     private MapView mapView;
+    private ImageButton profileButton;
 
 
     private PermissionsManager permissionsManager;
@@ -47,6 +50,7 @@ public class ApplicationActivity extends AppCompatActivity  implements OnMapRead
         Mapbox.getInstance(this, "pk.eyJ1IjoiYWpkaW5haG1ldG92aWMiLCJhIjoiY2praDZkZDQ3MG92MTNwbXBrYjRxNHllZiJ9.y9-QcaI5nQduRj_Mkv4cXg");
         setContentView(R.layout.activity_application);
 
+        final Intent profileIntent = new Intent(this, ProfileActivity.class);
 
         mapView = findViewById(R.id.mapView);
         mapView.onCreate(savedInstanceState);
@@ -76,6 +80,15 @@ public class ApplicationActivity extends AppCompatActivity  implements OnMapRead
                 });
 
 
+            }
+        });
+
+        profileButton = findViewById(R.id.profileButton);
+
+        profileButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(profileIntent);
             }
         });
 
