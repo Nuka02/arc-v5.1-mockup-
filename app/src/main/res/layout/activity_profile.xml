@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="@drawable/profilebg"
     tools:context="com.arcdrive.arc.ApplicationActivity">
 
 
@@ -174,7 +174,7 @@
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEmaile"
-        app:layout_constraintVertical_bias="2.8"
+        app:layout_constraintVertical_bias="3.6"
         tools:ignore="LabelFor" />
 
     <EditText
@@ -270,7 +270,9 @@
         app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintVertical_bias="0.0325" />
+
+
 
 
 </android.support.constraint.ConstraintLayout>

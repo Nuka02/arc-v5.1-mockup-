@@ -1,22 +1,22 @@
 <resources>
     <string name="app_name">Arc</string>
     <string name="_00_00">00:00</string>
-    <string name="password">Password</string>
-    <string name="forgot_password">Forgot password?</string>
-    <string name="sign_up">Sign Up</string>
-    <string name="login">Login</string>
-    <string name="phone_number">Phone Number</string>
-    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Sifra</string>
+    <string name="forgot_password">Zaboravili ste sifru?</string>
+    <string name="sign_up">Registracija</string>
+    <string name="login">Prijava</string>
+    <string name="phone_number">Broj Telefona</string>
+    <string name="confirm_password">Potvrdite sifru</string>
     <string name="e_mail">E-mail</string>
-    <string name="lastname">Lastname</string>
+    <string name="lastname">Prezime</string>
     <string name="todo">TODO</string>
     <string name="mapStyle">https://api.mapbox.com/styles/v1/ajdinahmetovic/cjqw83ttvnqkf2rmw423f4v6r.html?fresh=true&amp;title=true&amp;access_token=pk.eyJ1IjoiYWpkaW5haG1ldG92aWMiLCJhIjoiY2praDZkZDQ3MG92MTNwbXBrYjRxNHllZiJ9.y9-QcaI5nQduRj_Mkv4cXg#10.0/42.362400/-71.020000/0</string>
-    <string name="name">Name</string>
+    <string name="name">Ime</string>
     <string name="Arc">Arc</string>
     <string name="ajdin">Ajdin</string>
     <string name="nukic">Nukic</string>
     <string name="ajdinnukic16_yahoo_com">ajdinnukic16@yahoo.com</string>
     <string name="_387">+387</string>
     <string name="number">62163162</string>
-    <string name="payment">Payment</string>
+    <string name="payment">Placanje</string>
 </resources>
