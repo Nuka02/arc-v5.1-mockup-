@@ -20,49 +20,57 @@ public class ProfileActivity extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
 
         t = (TextView) findViewById(R.id.etNamee);
-        Typeface myCustomFont=Typeface.createFromAsset(getAssets(),"fonts/MontserratAlternates-Bold.otf");
+        Typeface myCustomFont=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Bold.ttf");
         t.setTypeface(myCustomFont);
 
         t = (TextView) findViewById(R.id.etLastnamee);
-        Typeface myCustomFont1=Typeface.createFromAsset(getAssets(),"fonts/MontserratAlternates-Bold.otf");
+        Typeface myCustomFont1=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Bold.ttf");
         t.setTypeface(myCustomFont1);
 
         t = (TextView) findViewById(R.id.etEmaile);
-        Typeface myCustomFont2=Typeface.createFromAsset(getAssets(),"fonts/MontserratAlternates-Bold.otf");
+        Typeface myCustomFont2=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Bold.ttf");
         t.setTypeface(myCustomFont2);
 
         t = (TextView) findViewById(R.id.etPhonee);
-        Typeface myCustomFont3=Typeface.createFromAsset(getAssets(),"fonts/MontserratAlternates-Bold.otf");
+        Typeface myCustomFont3=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Bold.ttf");
         t.setTypeface(myCustomFont3);
 
         t = (TextView) findViewById(R.id.etPassworde);
-        Typeface myCustomFont4=Typeface.createFromAsset(getAssets(),"fonts/MontserratAlternates-Bold.otf");
+        Typeface myCustomFont4=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Bold.ttf");
         t.setTypeface(myCustomFont4);
 
         t = (TextView) findViewById(R.id.etName);
-        Typeface myCustomFont5=Typeface.createFromAsset(getAssets(),"fonts/MontserratAlternates-Regular.otf");
+        Typeface myCustomFont5=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Regular.ttf");
         t.setTypeface(myCustomFont5);
 
         t = (TextView) findViewById(R.id.etName1);
-        Typeface myCustomFont6=Typeface.createFromAsset(getAssets(),"fonts/MontserratAlternates-Regular.otf");
+        Typeface myCustomFont6=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Regular.ttf");
         t.setTypeface(myCustomFont6);
 
         t = (TextView) findViewById(R.id.etLastname);
-        Typeface myCustomFont7=Typeface.createFromAsset(getAssets(),"fonts/MontserratAlternates-Regular.otf");
+        Typeface myCustomFont7=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Regular.ttf");
         t.setTypeface(myCustomFont7);
 
         t = (TextView) findViewById(R.id.etPhone);
-        Typeface myCustomFont8=Typeface.createFromAsset(getAssets(),"fonts/MontserratAlternates-Regular.otf");
+        Typeface myCustomFont8=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Regular.ttf");
         t.setTypeface(myCustomFont8);
 
         t = (TextView) findViewById(R.id.etBiHnumber);
-        Typeface myCustomFont9=Typeface.createFromAsset(getAssets(),"fonts/MontserratAlternates-Regular.otf");
+        Typeface myCustomFont9=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Regular.ttf");
         t.setTypeface(myCustomFont9);
 
         t = (TextView) findViewById(R.id.etMail);
-        Typeface myCustomFont10=Typeface.createFromAsset(getAssets(),"fonts/MontserratAlternates-Regular.otf");
+        Typeface myCustomFont10=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Regular.ttf");
         t.setTypeface(myCustomFont10);
 
+        t = (TextView) findViewById(R.id.etPassword);
+        Typeface myCustomFont11=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Regular.ttf");
+        t.setTypeface(myCustomFont11);
+
+
+        t = (TextView) findViewById(R.id.Payment);
+        Typeface myCustomFont12=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Bold.ttf");
+        t.setTypeface(myCustomFont12);
 
 
         final Intent intent1 = new Intent(this, ApplicationActivity.class);
