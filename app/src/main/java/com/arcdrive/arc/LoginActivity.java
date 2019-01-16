@@ -18,7 +18,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        final Intent intent1 = new Intent(this, ApplicationActivity.class);
+        final Intent intent1 = new Intent(this, ProfileActivity.class);
         final Intent intent2 = new Intent(this, LoginSignupActivity.class);
 
         arrowButton = (ImageButton) findViewById(R.id.arrowButton);

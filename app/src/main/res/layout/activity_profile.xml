@@ -10,15 +10,15 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="161dp"
-        android:layout_height="139dp"
+        android:layout_width="143dp"
+        android:layout_height="107dp"
         android:contentDescription="@string/todo"
         android:src="@drawable/ic_user"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.055" />
+        app:layout_constraintVertical_bias="0.1" />
 
     <TextView
         android:id="@+id/etNamee"
@@ -31,7 +31,7 @@
         app:layout_constraintHorizontal_bias="0.20"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.108" />
+        app:layout_constraintVertical_bias="0.050" />
 
     <TextView
         android:id="@+id/etLastnamee"
@@ -44,7 +44,7 @@
         app:layout_constraintHorizontal_bias="0.20"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etNamee"
-        app:layout_constraintVertical_bias="0.083" />
+        app:layout_constraintVertical_bias="0.06" />
 
     <TextView
         android:id="@+id/etEmaile"
@@ -57,7 +57,7 @@
         app:layout_constraintHorizontal_bias="0.20"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etLastnamee"
-        app:layout_constraintVertical_bias="0.108" />
+        app:layout_constraintVertical_bias="0.082" />
 
     <TextView
         android:id="@+id/etPhonee"
@@ -67,10 +67,10 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.20"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEmaile"
-        app:layout_constraintVertical_bias="0.15" />
+        app:layout_constraintVertical_bias="0.104" />
 
     <TextView
         android:id="@+id/etPassworde"
@@ -83,20 +83,20 @@
         app:layout_constraintHorizontal_bias="0.20"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPhonee"
-        app:layout_constraintVertical_bias="0.207" />
+        app:layout_constraintVertical_bias="0.159" />
 
     <ImageView
         android:id="@+id/etChangeimage"
-        android:layout_width="31dp"
-        android:layout_height="39dp"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
         android:contentDescription="@string/todo"
         android:src="@drawable/ic_profilepicture_edit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintHorizontal_bias="0.36"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.213"
+        app:layout_constraintVertical_bias="0.215"
         tools:ignore="MissingConstraints" />
 
     <EditText
@@ -115,7 +115,7 @@
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.394"
+        app:layout_constraintVertical_bias="0.332"
         tools:ignore="LabelFor" />
 
     <EditText
@@ -128,14 +128,14 @@
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:text="@string/ajdin"
+        android:textColor="#7a7d82"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.394"
-        android:textColor="#7a7d82"
+        app:layout_constraintVertical_bias="0.332"
         tools:ignore="LabelFor" />
 
     <EditText
@@ -148,14 +148,14 @@
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:text="@string/nukic"
+        android:textColor="#7a7d82"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.511"
-        android:textColor="#7a7d82"
+        app:layout_constraintVertical_bias="0.445"
         tools:ignore="LabelFor" />
 
     <EditText
@@ -168,33 +168,33 @@
         android:importantForAutofill="no"
         android:inputType="textEmailAddress"
         android:text="@string/ajdinnukic16_yahoo_com"
+        android:textColor="#7a7d82"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/etPhonee"
+        app:layout_constraintBottom_toTopOf="@+id/etPhone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEmaile"
-        app:layout_constraintVertical_bias="1.4"
-        android:textColor="#7a7d82"
+        app:layout_constraintVertical_bias="2.8"
         tools:ignore="LabelFor" />
 
     <EditText
         android:id="@+id/etPhone"
-        android:layout_width="221dp"
+        android:layout_width="224dp"
         android:layout_height="48dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:importantForAutofill="no"
         android:inputType="phone"
         android:text="@string/number"
+        android:textColor="#7a7d82"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.747"
+        app:layout_constraintHorizontal_bias="0.749"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.759"
-        android:textColor="#7a7d82"/>
+        app:layout_constraintVertical_bias="0.689" />
 
     <TextView
         android:id="@+id/etBiHnumber"
@@ -206,15 +206,15 @@
         android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.762"
+        app:layout_constraintVertical_bias="0.693"
         tools:ignore="TextViewEdits" />
 
     <EditText
         android:id="@+id/etPassword"
-        android:layout_width="295dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
@@ -228,7 +228,36 @@
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.873"/>
+        app:layout_constraintVertical_bias="0.807" />
+
+
+    <ImageButton
+        android:id="@+id/arrowNoBorderBlack"
+        android:layout_width="24dp"
+        android:layout_height="17dp"
+        android:background="@drawable/arrow_noborder_grey"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="29dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.933" />
 
 
 </android.support.constraint.ConstraintLayout>
