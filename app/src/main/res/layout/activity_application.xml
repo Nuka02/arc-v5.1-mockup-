@@ -38,6 +38,13 @@
         app:layout_constraintVertical_bias="0.151" />
 
 
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#40a5be"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
     <ImageButton
         android:id="@+id/profileButton"
         android:layout_width="32dp"
