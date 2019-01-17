@@ -23,7 +23,9 @@
         mapbox:mapbox_cameraTargetLat="43.8186281"
         mapbox:mapbox_cameraTargetLng="18.31207"
         mapbox:mapbox_cameraTilt="0"
-        mapbox:mapbox_cameraZoom="15" />
+        mapbox:mapbox_cameraZoom="15">
+
+    </com.mapbox.mapboxsdk.maps.MapView>
 
     <Button
         android:id="@+id/callRide"
@@ -38,12 +40,12 @@
         app:layout_constraintVertical_bias="0.151" />
 
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="#40a5be"
-            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#ffffff"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     <ImageButton
         android:id="@+id/profileButton"
@@ -58,6 +60,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.03" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="197dp"
+        android:layout_height="44dp"
+        android:src="@drawable/logo_arc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.013"
+        app:layout_constraintHorizontal_bias="0.4"/>
 
 
 </android.support.constraint.ConstraintLayout>
