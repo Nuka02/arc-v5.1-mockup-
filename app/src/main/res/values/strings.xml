@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Arc</string>
     <string name="_00_00">00:00</string>
-    <string name="password">Sifra</string>
-    <string name="forgot_password">Zaboravili ste sifru?</string>
+    <string name="password">Šifra</string>
+    <string name="forgot_password">Zaboravili ste šifru?</string>
     <string name="sign_up">Registracija</string>
     <string name="login">Prijava</string>
     <string name="phone_number">Broj Telefona</string>
-    <string name="confirm_password">Potvrdite sifru</string>
+    <string name="confirm_password">Potvrdite šifru</string>
     <string name="e_mail">E-mail</string>
     <string name="lastname">Prezime</string>
     <string name="todo">TODO</string>
@@ -19,4 +19,5 @@
     <string name="_387">+387</string>
     <string name="number">62163162</string>
     <string name="payment">Placanje</string>
+    <string name="sifra">123456789</string>
 </resources>

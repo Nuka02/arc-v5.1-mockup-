@@ -67,10 +67,17 @@ public class ProfileActivity extends AppCompatActivity {
         Typeface myCustomFont11=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Regular.ttf");
         t.setTypeface(myCustomFont11);
 
-
         t = (TextView) findViewById(R.id.Payment);
         Typeface myCustomFont12=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Bold.ttf");
         t.setTypeface(myCustomFont12);
+
+        t = (TextView) findViewById(R.id.Logout);
+        Typeface myCustomFont13=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Bold.ttf");
+        t.setTypeface(myCustomFont13);
+
+        t = (TextView) findViewById(R.id.etSave);
+        Typeface myCustomFont14=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Bold.ttf");
+        t.setTypeface(myCustomFont14);
 
 
         final Intent intent1 = new Intent(this, ApplicationActivity.class);

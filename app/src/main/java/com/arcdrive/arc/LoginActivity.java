@@ -30,6 +30,10 @@ public class LoginActivity extends AppCompatActivity {
         Typeface myCustomFont1=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Regular.ttf");
         t.setTypeface(myCustomFont1);
 
+        t = (TextView) findViewById(R.id.button3);
+        Typeface myCustomFont2=Typeface.createFromAsset(getAssets(),"fonts/Montserrat-Regular.ttf");
+        t.setTypeface(myCustomFont2);
+
         final Intent intent1 = new Intent(this, ProfileActivity.class);
         final Intent intent2 = new Intent(this, LoginSignupActivity.class);
 
